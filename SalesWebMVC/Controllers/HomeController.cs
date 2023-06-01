@@ -41,5 +41,6 @@ namespace SalesWebMVC.Controllers
         {
             return View(new SalesWebMVC.Models.ViewModels.ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+                            
     }
 }
