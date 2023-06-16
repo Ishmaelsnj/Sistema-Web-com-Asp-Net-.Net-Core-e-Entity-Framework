@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using SalesWebMVC.Data;
 using SalesWebMVC.Models.ViewModels;
+using SalesWebMVC.Models;
 
 namespace SalesWebMVC.Controllers
 {
@@ -18,6 +19,8 @@ namespace SalesWebMVC.Controllers
         {
             _context = context;
         }
+
+    
 
         // GET: Departments
         public async Task<IActionResult> Index()

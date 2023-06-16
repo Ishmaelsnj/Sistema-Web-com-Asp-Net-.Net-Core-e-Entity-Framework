@@ -6,11 +6,15 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using SalesWebMVC.Models.ViewModels;
+using System.ComponentModel.DataAnnotations;
+using static SalesWebMVC.Models.ViewModels.ErrorViewModel;
 
 namespace SalesWebMVC.Controllers
 {
     public class HomeController : Controller
     {
+
+        
         public IActionResult Index()
         {
             return View();

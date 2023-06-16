@@ -1,4 +1,6 @@
-﻿namespace SalesWebMVC.Models.ViewModels
+﻿
+
+namespace SalesWebMVC.Models.ViewModels
 {
     public class Department
     {
