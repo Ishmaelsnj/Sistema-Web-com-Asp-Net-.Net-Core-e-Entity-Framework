@@ -7,7 +7,7 @@ using SalesWebMVC.Models.ViewModels;
 using SalesWebMVC.Models;
 using System.ComponentModel.DataAnnotations;
 
-namespace SalesWebMVC.Data
+namespace SalesWebMVC.Data  
 {
     public class SalesWebMVCContext : DbContext
     {
@@ -17,8 +17,11 @@ namespace SalesWebMVC.Data
         }
 
         
-        public DbSet<SalesWebMVC.Models.ViewModels.Department> Department { get; set; }
+        public DbSet<Department> Department { get; set; }
         public DbSet<SalesWebMVC.Models.ViewModels.ErrorViewModel> ErrorViewModels { get; set; }
+        public DbSet<Seller> Seller { get; set; }
+        public DbSet<SalesRecord> SalesRecord { get; set; }
+
 
     }
 }

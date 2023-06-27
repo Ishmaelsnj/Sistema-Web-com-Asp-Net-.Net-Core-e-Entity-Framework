@@ -1,10 +1,13 @@
 using System;
+using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
 
 namespace SalesWebMVC.Models.ViewModels
 {
     public class ErrorViewModel
 
     {
+        [Key]
 
         public string RequestId { get; set; }
 
